@@ -1,7 +1,11 @@
 import React from "react";
+import image from "./images/newYorkCity.jpg";
+
 
 export default function LocationCard(props) {
     return (
-        null
+        <div>
+            <img src={image} alt={props.img} />
+        </div>
     )
 }
