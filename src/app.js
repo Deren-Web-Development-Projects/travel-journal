@@ -10,7 +10,8 @@ export default function App() {
                 location={place.location}
                 state={place.state}
                 id={place.id}
-                image={place.thumbnail}
+                image={place.image}
+                fullSize={place.fullSize}
             />
         )     
     })
