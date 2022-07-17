@@ -6,10 +6,11 @@ export default function App() {
     const travelCards = travelData.map(place => {
         return (
             <LocationCard 
+                key={place.id}
                 location={place.location}
                 state={place.state}
                 id={place.id}
-                image={place.image}
+                image={place.thumbnail}
             />
         )     
     })

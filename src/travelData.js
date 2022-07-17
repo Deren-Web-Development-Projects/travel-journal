@@ -9,6 +9,7 @@ export default [
             endDate: '31 Mar 2019'
         },
         image: 'images/newYorkCity.jpg',
+        thumbnail: 'images/newYorkCityThumbnail.jpb',
         description: 'Driving down 5th Avenue in New York City in late March.'
     },
     {
@@ -20,7 +21,8 @@ export default [
             endDate: '08 August 2015'
         },
         image: 'images/traverseCity.jpg',
-        description: ''
+        thumbnail: 'images/traverseCityThumbnail.jpg',
+        description: 'At the top of the Sleeping Bear Dunes in Northern Michigan, looking out over Lake Michigan.'
     },
     {
         id: 3,
@@ -31,6 +33,7 @@ export default [
             endDate: '12 August 2015'
         },
         image: 'images/mackinacIsland.jpg',
-        description: 'Biking around the perimeter of the island, took a photo looking over the water'
+        thumbnail: 'images/mackinacIslandThumbnail.jpg',
+        description: 'Biking around the perimeter of the island, took a photo looking over the water.'
     },
 ]
