@@ -1,11 +1,14 @@
 import React from "react";
-import image from "./images/newYorkCity.jpg";
-
 
 export default function LocationCard(props) {
     return (
         <div>
-            <img src={image} alt={props.img} />
+            <h1>State: {props.state}</h1>
+            <h2>Location: {props.location}</h2>
+            <h3>Id: {props.id}</h3>
+            <h4>Image:</h4>
+            <img src={props.image} />
+            <hr />
         </div>
     )
 }
