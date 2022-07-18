@@ -1,18 +1,23 @@
 import React from "react";
-import LocationCard from "./locationCard";
-import travelData from "./travelData";
+import Header from "./components/header";
+import LocationCard from "./components/locationCard";
+import travelData from "./components/travelData";
 
 export default function App() {
     const travelCards = travelData.map(place => {
         return (
-            <LocationCard 
-                key={place.id}
-                location={place.location}
-                state={place.state}
-                id={place.id}
-                image={place.image}
-                fullSize={place.fullSize}
-            />
+            <>
+                <Header />
+                <LocationCard 
+                    key={place.id}
+                    location={place.location}
+                    state={place.state}
+                    id={place.id}
+                    image={place.image}
+                    fullSize={place.fullSize}
+                />
+            </>
+            
         )     
     })
     return (
