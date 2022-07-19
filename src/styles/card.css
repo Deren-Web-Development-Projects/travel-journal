@@ -1,0 +1,13 @@
+.itemCard {
+    display: flex;
+    flex-direction: row;
+}
+
+#image {
+    width: 25%;
+    background-color: yellow;
+}
+
+#image img {
+    width: 100%;
+}

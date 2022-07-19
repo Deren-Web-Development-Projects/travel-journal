@@ -3,7 +3,10 @@ import '../styles/header.css';
 
 export default function header() {
     return (
-        <h1 id="test">Header</h1>
+        <div id="headerMain">
+            <img id="headerImg" src="images/earth.png" />
+            <p>My Travel Journal</p>
+        </div>
     )
 };
 
