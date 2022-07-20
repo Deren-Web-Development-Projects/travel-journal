@@ -1,13 +1,69 @@
 .itemCard {
     display: flex;
     flex-direction: row;
+    margin-top: 35px;
+    justify-content: center;
+    align-content: center;
 }
 
 #image {
     width: 25%;
-    background-color: yellow;
 }
 
 #image img {
     width: 100%;
+    border-radius: 25px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    max-width: 55%;
+}
+
+.infoHeader {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.pinImage {
+    width: 25px;
+}
+
+.infoHeader p {
+    color: violet;
+    text-transform: uppercase;
+    margin-left: 12px;
+    font-size: 1.2em;
+    font-family: 'Bree Serif', serif;
+}
+
+.infoHeader a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+
+.infoBody {
+    margin-left: 35px;
+    font-family: 'Cormorant SC', serif;
+}
+
+.infoBodyTitle {
+    font-size: 2.2em;
+}
+
+.infoBodyDates {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.infoBodyDesc {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+

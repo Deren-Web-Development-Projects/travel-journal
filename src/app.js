@@ -11,13 +11,17 @@ export default function App() {
                 key={place.id}
                 location={place.location}
                 state={place.state}
+                googleMaps={place.googleMaps}
                 id={place.id}
                 image={place.image}
                 fullSize={place.fullSize}
+                startDate={place.startDate}
+                endDate={place.startDate}
+                description={place.description}
             />
         )     
     })
-    
+
     return (
         <div>
             <Header />
