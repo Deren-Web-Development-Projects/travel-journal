@@ -31,6 +31,6 @@ export default [
         endDate: '12 August 2015',
         image: 'images/mackinacIslandThumbnail.jpg',
         fullSize: 'images/mackinacIsland.jpg',
-        description: 'Biking around the perimeter of the island, took a photo looking over the water.'
+        description: 'Biking around the perimeter of the island. The name of the island in Odawa is Michilimackinac and "Mitchimakinak" in Ojibwemowin meaning "Big Turtle". More than 80 percent of the island is preserved as Mackinac Island State Park'
     },
 ]

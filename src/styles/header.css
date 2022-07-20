@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: red;
+    background-color: #FF7FAA;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -12,11 +12,13 @@
 #headerImg {
     width: 50px;
     margin-right: 5px;
-    background-color: red;
+    background-color: #FF7FAA;
 }
 
 #headerMain p {
     font-size: 2.50em;
     margin-left: 5px;
-    background-color: red;
+    background-color: #FF7FAA;
+    font-family: 'Bree Serif', serif;
+    text-transform: uppercase;
 }

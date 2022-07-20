@@ -19,6 +19,7 @@ export default function LocationCard(props) {
                     <p className="infoBodyTitle">{props.location}</p>
                     <p className="infoBodyDates">{props.startDate} - {props.startDate}</p>
                     <p className="infoBodyDesc">{props.description}</p>
+                    <p className="infoBodyNote">* Click the image for the full image.</p>
                 </div>
             </div>
         </div>
