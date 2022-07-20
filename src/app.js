@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./components/header";
+import Footer from "./components/footer";
 import LocationCard from "./components/locationCard";
 import travelData from "./components/travelData";
 import "./styles/mainStyles.css";
@@ -29,6 +30,7 @@ export default function App() {
         <div>
             <Header />
             {travelCards}
+            <Footer />
         </div>
     )
 }

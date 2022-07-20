@@ -22,3 +22,40 @@
     font-family: 'Bree Serif', serif;
     text-transform: uppercase;
 }
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF7FAA;
+    margin-top: 30px;
+    height: 40px;
+}
+
+.footerImg {
+    background-color: #FF7FAA;
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.footerItem {
+    background-color: #FF7FAA;
+    text-transform: uppercase;
+    font-family: 'Cormorant SC', serif;
+    font-size: 1.2em;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#footer a {
+    color: black;
+    text-decoration: underline;
+}
+
+#footer a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
