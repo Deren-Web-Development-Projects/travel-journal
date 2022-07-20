@@ -81,8 +81,26 @@
     margin-top: 20px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 905px) {
     .infoBodyDesc {
-        font-size: 1.1em;
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .itemCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info {
+        width: 100%;
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .infoBodyTitle {
+        font-size: 1.6em;
     }
 }

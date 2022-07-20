@@ -76,3 +76,22 @@
 #credits a:hover {
     text-decoration: none;
 }
+
+@media only screen and (max-width: 450px) {
+    #headerMain p {
+        font-size: 1.25em;
+    }
+
+    #footer {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    .footerItem {
+        margin-bottom: 5px;
+    }
+
+    .footerImg {
+        display: none;
+    }
+}
